@@ -81,3 +81,4 @@ if(notes){
 }
   
   addButton.addEventListener('click',()=> addNewNote())
+  addNewNote();

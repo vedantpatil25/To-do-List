@@ -7,25 +7,96 @@
     outline: none;
 }
 body{
-    background-color: #f4f7f8;
-    font-family: var(--poppinFont);
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101, 0, 94, 0.603) 3%, rgba(60, 133, 206, 0.598) 38%, rgba(48, 238, 225, 0.541) 68%, rgba(255, 25, 25, 0.593) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
-    background-color: #28293652;
 
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgba(255, 255, 255, 0.167);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+
+
+
 .heading{
     width: 100vw;
     height: 5.5rem;
     /* background-color: #f1c40f; */
-    background-color: #cd8c246f;
+    background-color: #2481cd6f;
     color: #ffffff;
     box-shadow: 0px 10px 16px rgba(248, 247, 247, 0.433);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 50px;
+
 }
 .heading h1{
     line-height: 5.8rem;
     margin-left: 2rem;
-    font-weight: 800;
+    font-weight: 200;
 
 }
 .add:active{
@@ -66,7 +137,7 @@ button.learn-more .circle{
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background: #f1c12e;
+    background: #2ef1e1;
     border-radius: 1.625rem;
 }
 button.learn-more .circle .icon{
@@ -112,6 +183,7 @@ button.learn-more .button-text{
     line-height: 1.6;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 300;
 }
 
 button:hover .circle{
@@ -128,14 +200,15 @@ button:hover .circle .icon.arrow{
 }
 /*button style end*/
 .note{
-    background-color: #fff;
+    background-color: #ffffff;
     margin: 30px 20px 30px 20px;
     height: 200px;
     width: 400px;
     overflow-y:scroll;
-    margin-top: 7rem;
+    margin-top: 3rem;
     box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1), inset 0 -1px 0 rgba(0,0,0, 0.1);
     border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     /* padding: 10px; */
 
     
@@ -197,3 +270,33 @@ button:hover .circle .icon.arrow{
     padding: 15px;
     border-radius: 7px;
 }
+
+
+
+@media only screen and (max-width: 345px) {
+    .heading {
+      font-size: small;
+    }
+  }
+
+  @media only screen and (max-width: 314px) {
+    .heading {
+      font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 653px) {
+    .btn-div {
+        position: absolute;
+        top: 7rem;
+        right: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 440px) {
+    .btn-div {
+        position: absolute;
+        top: 7rem;
+        left: 1rem;
+    }
+  }
