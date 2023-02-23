@@ -2,7 +2,8 @@
 # Using Local Storage in Javascript
 ## visit website : https://todo-list-by-vedant.netlify.app/
 
-<img width="900" alt="Screenshot 2566-02-11 at 03 53 24" src="https://user-images.githubusercontent.com/106603826/218210410-15b27a31-935f-42fb-9e34-3296bccc9aac.png">
+<img width="711"  alt="Screenshot 2566-02-23 at 13 35 02" src="https://user-images.githubusercontent.com/106603826/220851992-a5bf86fe-166b-4159-ae05-0292612c2449.png"> <img height="385" alt="Screenshot 2566-02-23 at 13 34 37" src="https://user-images.githubusercontent.com/106603826/220852010-72f008b3-4a69-4a4f-8842-544cf49a3955.png"> 
+
 
 
 # Title:
