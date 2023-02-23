@@ -16,9 +16,9 @@ Built using * HTML, CSS, and JavaScript*, this app makes it easy to create, orga
 And thanks to its integration with *local storage*, you'll never lose track of your progress - even if you close the app or shut down your device. Simply open My Todo List App and pick up where you left off.
 
 # Features:
-Intuitive user interface for easy task management
-Add, edit, and delete tasks with just a few clicks
-Automatic saving to local storage for easy access and retrieval
-Fully customizable CSS styling for a personalized touch
-Mobile-responsive design for seamless use on any device
-Whether you're a busy professional or a student trying to stay on top of coursework, My Todo List App is the perfect tool for staying organized and productive. Try it out today and see the difference for yourself!
+- Intuitive user interface for easy task management
+- Add, edit, and delete tasks with just a few clicks
+- Automatic saving to local storage for easy access and retrieval
+- Fully customizable CSS styling for a personalized touch
+- Mobile-responsive design for seamless use on any device
+- Whether you're a busy professional or a student trying to stay on top of coursework, My Todo List App is the perfect tool for staying organized and productive. Try it out today and see the difference for yourself!
